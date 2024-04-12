@@ -1,5 +1,6 @@
-def slice_advanced():
-    # Código a implementar utilizando input.
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+texto = "Hello, World!"
+primero = slice(4,13,2)
+print(texto[primero])
+texto2 ="12345678910"
+segundo = slice(4,13,2)
+print(texto2[segundo])
